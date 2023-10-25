@@ -1,0 +1,63 @@
+.container {
+  width: 50%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+select {
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: aliceblue;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 50px;
+  color: darkblue;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  background: none;
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  margin: 20px 10px;
+}
+
+.container div {
+  margin: 15px 0px;
+}
+
+.container label {
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+.container input {
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.container input:disabled {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.container span {
+  font-size: 20px;
+  line-height: 3;
+}
+
+
+
