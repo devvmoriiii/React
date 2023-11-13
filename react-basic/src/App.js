@@ -1,15 +1,16 @@
-import Button from "./Button";
-import styles from "./App.module.css";
+import * as React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home_movie";
+import Detail from "./routes/Detail";
 
 function App() {
   return (
-    <div>
-      <h1 className={styles.title}>Hi, RCA!</h1>
-      <Button text="btn 1"></Button>
-      <Button text="btn 2"></Button>
-      <Button text="btn 3"></Button>
-      <hr />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movie" element={<Detail />} />
+      </Routes>
+    </Router>
   );
 }
 

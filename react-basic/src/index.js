@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from "./App";
-// import UseEffect from "./useEffect";
-import CleanUp from "./cleanUp";
+import App from "./App";
+
 // import "./style.css";
+// import RCA from "./RCA";
+// import UseEffect from "./useEffect";
+// import CleanUp from "./cleanUp";
+// import TodoList from "./todoList";
+// import CoinList from "./coinList";
+// import CoinCal from "./coinCalculator";
+// import Movie from "./routes/Home_movie";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,8 +18,12 @@ root.render(
   //   <UseEffect />
   // </React.StrictMode>
   <div>
-    {/* <App /> */}
+    <App />
     {/* <UseEffect /> */}
-    <CleanUp />
+    {/* <CleanUp /> */}
+    {/* <TodoList /> */}
+    {/* <CoinList /> */}
+    {/* <CoinCal /> */}
+    {/* <Movie /> */}
   </div>
 );
