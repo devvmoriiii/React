@@ -1,14 +1,12 @@
 import * as React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./routes/Home_movie";
-import Detail from "./routes/Detail";
+import CleanUp from "./cleanUp";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/movie" element={<Detail />} />
+        <Route path="/" element={<CleanUp />} />
       </Routes>
     </Router>
   );
